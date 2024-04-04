@@ -17,7 +17,7 @@ const PaymentPage = () => {
                   description: "order",
                   amount: {
                     currency_code: "USD",
-                    value: "0.00", // Ensure this is a string to avoid potential issues in the PayPal API
+                    value: "20.00", // Ensure this is a string to avoid potential issues in the PayPal API
                   },
                 },
               ],
