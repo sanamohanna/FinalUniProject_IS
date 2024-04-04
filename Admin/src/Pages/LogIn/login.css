@@ -1,0 +1,257 @@
+.login {
+    /* margin: 0.5rem 0; */
+    padding: 1rem;
+    border: none;
+    /* border-radius: 10px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #FEF4E5;
+    /* width: 800px;
+    height: 50px; */
+    font-size: 20px;
+  }
+  
+  
+  .email {
+    width: 300px;
+    margin-top: 0.5%;
+  }
+  
+  .password {
+    width: 300px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+  
+  
+  }
+  
+  .input {
+    width: 350px;
+    text-align: center;
+    /* top: 50%;
+    left: 50%;
+    right: 50%; */
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+  .submitLogin {
+  
+    background-color: #FDD496;
+    color: black;
+    border-radius: 15px;
+    width: 450px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.2%;
+  
+  }
+  
+  
+  .link-btn {
+    background: none;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 5%;
+    /* left: 30%; */
+  }
+  
+  .link-btn2 {
+    background: none;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 2%;
+    /* margin-left: 47%; */
+  }
+  
+  .title {
+    font-family: 'jsMath-cmr10';
+    font-style: normal;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 42px;
+  }
+  
+  .message {
+    color: red;
+  }
+  
+  .email {
+    width: 350px;
+    text-align: center;
+    /* top: 50%;
+    left: 50%;
+    right: 50%; */
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 40px;
+    font-size: 20px;
+    /* margin-left: 38%; */
+    margin-top: 5%;
+    margin-bottom: 2px;
+  }
+  
+  .password {
+    width: 350px;
+    text-align: center;
+    /* top: 50%;
+    left: 50%; */
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 40px;
+    font-size: 20px;
+    /* margin-left: 38%; */
+    margin-top: 2%;
+  }
+
+  
+  
+     .login, .signup, .adminlog .payment {
+      display: flex;
+      flex-direction: column;
+    }
+   
+    
+    input {
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      font-size: 20px;
+      background-color: #ffffff;
+    }
+  
+    .input{
+      width: 350px;
+      text-align: center;
+      top:50% ;
+      left: 50%;
+      right: 50%;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      height: 50px;
+      font-size: 20px;
+      margin-left: 38%;
+      margin-top: 5%;
+    } 
+    
+  
+    .submit{
+      background-color:  #FDD496;
+      color: black;
+      border-radius: 15px;
+    }
+    
+    .submitLogin {
+      background-color: #f0ad4e; /* Bootstrap's btn-warning color, for example */
+      padding: 10px 20px;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* More common font */
+      font-size: 18px;
+      border: none;
+      border-radius: 4px; /* Slight rounding of corners */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    .submitLogin a{
+      text-decoration: none; /* Removes the underline */
+      color: inherit; /* Ensures the link color is the same as the text color */
+    }
+    
+    .submitLogin:hover, .submitLogin:focus {
+      background-color: #ec971f; /* A slightly darker shade for hover */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    }
+    
+    .submitLogin:active {
+      background-color: #d58512; /* Even darker for the active state */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset; /* Inner shadow to mimic pressing down */
+    }
+    
+    .link-btn {
+      background: none;
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+      font-weight: bold;
+      margin-top: 10%;
+      margin-left: 46%;
+    } 
+  
+    .title {
+      font-family: 'jsMath-cmr10';
+      font-style: normal;
+      margin-top: 60px;
+      color: black;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 42px;
+      background-color: #FEF4E5;
+    }
+    
+    .hello_message {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: 0%;
+      background-color: #FEF4E5;
+      font-family: 'jsMath-cmr10';
+      font-style: normal;
+      color: black;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 42px;
+    }
+    .login-image {
+      margin-right: 20px; /* Add space between image and form */
+      width: 300px; /* Or the width you want for your image */
+      height: 400px; /* To maintain aspect ratio */
+      position: absolute;
+      box-shadow: none;
+      top: 20;
+      left: 0;
+    }
+  
+    

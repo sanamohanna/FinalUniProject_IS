@@ -1,0 +1,76 @@
+/* Reset any margin, padding, and box-sizing to make sure elements fit properly */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fit{
+  background-color:#FEF4E5 ;
+}
+/* Base styles for the table */
+.show_table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling for smaller screens */
+}
+
+.show_table {
+  width: 100%;
+  max-width: 100%; /* Ensure table does not exceed the width of its container */
+  border-collapse: collapse;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  background-color: white;
+}
+
+/* Header styles */
+.show_table thead th {
+  background-color: #FEF4E5; 
+  color: black;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  border-right: 1px solid #ddd; /* Add right border to each cell */
+
+}
+
+/* Cell styles */
+.show_table tbody td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Add right border to each cell */
+  text-align: left; /* Align text to start */
+}
+.show_table th:last-child, .table td:last-child {
+  border-right: none;
+}
+
+/* Row hover effect */
+.show_table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+.action-icon {
+  font-size: 24px; /* This sets the size of the icon */
+  cursor: pointer; /* This changes the cursor to a pointer when hovering over the icons */
+  /* Add additional styling here if needed */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust table header and cell padding on smaller screens */
+  .show_table thead th, .show_table tbody td {
+    padding: 8px;
+    font-size: 0.875rem; /* Smaller font size */
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  /* Option to hide certain columns on the smallest screens */
+  .show_table .hide-on-mobile {
+    display: none;
+  }
+
+}

@@ -1,0 +1,64 @@
+/* Original style for .CoursesCard-item, with white background color set by default */
+.CoursesCard-item , .ProductCard-item ,.OrderCard-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.3s ease transform;
+    background-color: #fef4e5; /* Light pink color */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.CoursesCard-text, .ProductCard-text ,.OrderCard-text {
+    font-size: 1.5rem; /* Larger font size */
+    color: #333; /* Darker font color for better readability */
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none; /* Removes the underline */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .CoursesCard-item a, .ProductCard-item a,.OrderCard-item a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Ensures the link color is the same as the text color */
+  }
+  
+  .CoursesCard-item:hover, .ProductCard-item:hover  ,.OrderCard-item:hover {
+    transform: scale(1.05); /* Slightly scale up the item on hover */
+    color: #d35400; /* Change color on hover */
+  }
+  
+  /* Since you're dealing with a React Router Link, you might need to target the 'a' tag specifically */
+  .CoursesCard-item a:hover, .ProductCard-item:hover  ,.OrderCard-item a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .CoursesCard-item ,.ProductCard-item ,.OrderCard-item {
+        flex-direction: column;
+        margin: 10px 2%;
+    }
+
+    .CoursesCard-text ,.ProductCard-text ,.OrderCard-text{
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .CoursesCard-item , .ProductCard-item ,.OrderCard-item {
+        padding: 5px;
+    }
+
+}
